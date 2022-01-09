@@ -21,14 +21,15 @@
 
 import cfRestApiV3 as cfApi
 import datetime
+import json
 
 # accessible on your Account page under Settings -> API Keys
-apiPublicKey = "..."
+apiPublicKey = "8FguqWVfWBjF8gHVQqmSaTdf87KyRbmZmTMI0UUBS+p2hKd9nxgrI8bq"
 # accessible on your Account page under Settings -> API Keys
-apiPrivateKey = "..."
+apiPrivateKey = "6DbvgeXIRndiNmSW0JrxGuPNwJNPBuq9QOk02n6z0jsiBDG4w9qxQ3DGBh7S4TcZ6AiohhLqcvKdm7ITsWPO5eBd"
 
 # use "api.cryptofacilities.com" if your IP is whitelisted (Settings -> API Keys -> IP Whitelist)
-apiPath = "https://www.cryptofacilities.com"
+apiPath = "https://demo-futures.kraken.com"
 timeout = 20
 checkCertificate = True  # when using the test environment, this must be set to "False"
 useNonce = False  # nonce is optional
@@ -39,38 +40,63 @@ cfPrivate = cfApi.cfApiMethods(apiPath, timeout=timeout, apiPublicKey=apiPublicK
                                apiPrivateKey=apiPrivateKey, checkCertificate=checkCertificate, useNonce=useNonce)
 
 
+def my_print(header, resp = None, is_index = False):
+    line = header
+    
+    if not (resp is None):
+        try:
+            line += json.dumps(json.loads(resp), indent = 1)
+        except TypeError:
+            if (line != ''): 
+                if is_index:
+                    print(header, end = '')
+                else:
+                    print(header)
+                    
+            line = ''
+            if type(resp) == list:
+                for ind in range(len(resp)):
+                    print(str(ind) + ' : ', resp[ind], is_index = True)
+            else:
+                line += str(resp)
+        except json.JSONDecodeError:
+            line += resp
+    
+    print(line)
+
+
 def APITester():
     ##### public endpoints #####
 
     # get instruments
     result = cfPublic.get_instruments()
-    print("get_instruments:\n", result)
+    my_print("get_instruments:\n", result)
 
     # get tickers
     result = cfPublic.get_tickers()
-    print("get_tickers:\n", result)
+    my_print("get_tickers:\n", result)
 
     # get order book
     symbol = "PI_XBTUSD"
     result = cfPublic.get_orderbook(symbol)
-    print("get_orderbook:\n", result)
+    my_print("get_orderbook:\n", result)
 
     # get history
     symbol = "PI_XBTUSD"  # "PI_XBTUSD", "cf-bpi", "cf-hbpi"
     lastTime = datetime.datetime.strptime(
         "2016-01-20", "%Y-%m-%d").isoformat() + ".000Z"
     result = cfPublic.get_history(symbol, lastTime=lastTime)
-    print("get_history:\n", result)
+    my_print("get_history:\n", result)
 
     # get prices
     result = cfPublic.get_market_price(symbol)
-    print("get_market_price:\n", "%s elements" % len(result))
+    my_print("get_market_price:\n", "%s elements" % len(result))
 
     ##### private endpoints #####
 
     # get account
     result = cfPrivate.get_accounts()
-    print("get_accounts:\n", result)
+    my_print("get_accounts:\n", result)
 
     # send limit order
     limit_order = {
@@ -79,10 +105,10 @@ def APITester():
         "side": "buy",
         "size": 1,
         "limitPrice": 1.00,
-        "reduceOnly": "true"
+        "reduceOnly": "false"
     }
     result = cfPrivate.send_order_1(limit_order)
-    print("send_order (limit):\n", result)
+    my_print("send_order (limit):\n", result)
 
     # send stop reduce-only order
     stop_order = {
@@ -95,7 +121,7 @@ def APITester():
         "cliOrdId": "my_stop_client_id"
     }
     result = cfPrivate.send_order_1(stop_order)
-    print("send_order (stop):\n", result)
+    my_print("send_order (stop):\n", result)
 
     edit = {
         "cliOrdId": "my_stop_client_id",
@@ -104,21 +130,21 @@ def APITester():
         "stopPrice": 2.50,
     }
     result = cfPrivate.edit_order(edit)
-    print("edit_order (stop):\n", result)
+    my_print("edit_order (stop):\n", result)
 
     # cancel order
     order_id = "e35d61dd-8a30-4d5f-a574-b5593ef0c050"
     result = cfPrivate.cancel_order(order_id)
-    print("cancel_order:\n", result)
+    my_print("cancel_order:\n", result)
 
     # cancel all orders of a margin account
     result = cfPrivate.cancel_all_orders(symbol="fi_xbtusd")
-    print("cancel_all_orders:\n", result)
+    my_print("cancel_all_orders:\n", result)
 
     # cancel all orders after a minute
     timeout_in_seconds = 60
     result = cfPrivate.cancel_all_orders_after(timeout_in_seconds)
-    print("cancel_all_orders_after:\n", result)
+    my_print("cancel_all_orders_after:\n", result)
 
     # batch order
     jsonElement = {
@@ -155,64 +181,66 @@ def APITester():
             ],
     }
     result = cfPrivate.send_batchorder(jsonElement)
-    print("send_batchorder:\n", result)
+    my_print("send_batchorder:\n", result)
 
     # get open orders
     result = cfPrivate.get_openorders()
-    print("get_openorders:\n", result)
+    my_print("get_openorders:\n", result)
 
     # get fills
     lastFillTime = datetime.datetime.strptime(
         "2016-02-01", "%Y-%m-%d").isoformat() + ".000Z"
     result = cfPrivate.get_fills(lastFillTime=lastFillTime)
-    print("get_fills:\n", result)
+    my_print("get_fills:\n", result)
 
     # get open positions
     result = cfPrivate.get_openpositions()
-    print("get_openpositions:\n", result)
+    my_print("get_openpositions:\n", result)
 
     # get historical orders since start of the year
     since = datetime.datetime(2021, 1, 1).timestamp()
     since = int(since) * 1000
     result = cfPrivate.get_orders(since=since, sort="asc", limit=10000)
-    print("get_orders(since=%d, sort=\"asc\", limit=10000):\n" % since, "%s elements" % len(result))
+    my_print("get_orders(since=%d, sort=\"asc\", limit=10000):\n" % since, "%s elements" % len(result))
 
     # get recent orders
     result = cfPrivate.get_orders()
-    print("get_orders:\n", "%s elements" % len(result))
+    my_print("get_orders:\n", "%s elements" % len(result))
 
     # get historical executions since start of the year
     since = datetime.datetime(2021, 1, 1).timestamp()
     since = int(since) * 1000
     result = cfPrivate.get_executions(since=since, sort="asc", limit=10000)
-    print("get_executions(since=%d, sort=\"asc\", limit=10000):\n" % since, "%s elements" % len(result))
+    my_print("get_executions(since=%d, sort=\"asc\", limit=10000):\n" % since, "%s elements" % len(result))
 
     # get recent executions
     result = cfPrivate.get_executions()
-    print("get_executions:\n", "%s elements" % len(result))
+    my_print("get_executions:\n", "%s elements" % len(result))
 
     # get historical executions since start of the year
     since = datetime.datetime(2021, 1, 1).timestamp()
     since = int(since) * 1000
-    result = cfPrivate.get_historical_executions(since=since)
-    print("get_historical_executions:\n", "%s elements" % len(result))
+    # result = cfPrivate.get_historical_executions(since=since)
+    result = cfPrivate.get_executions(since=since)
+    my_print("get_historical_executions:\n", "%s elements" % len(result))
 
     # get recent executions
-    result = cfPrivate.get_recent_executions()
-    print("get_recent_executions:\n", "%s elements" % len(result))
+    # result = cfPrivate.get_recent_executions()
+    result = cfPrivate.get_executions()
+    my_print("get_recent_executions:\n", "%s elements" % len(result))
 
     # send xbt withdrawal request
     targetAddress = "xxxxxxxxxx"
     currency = "xbt"
     amount = 0.12345678
     result = cfPrivate.send_withdrawal(targetAddress, currency, amount)
-    print("send_withdrawal:\n", result)
+    my_print("send_withdrawal:\n", result)
 
     # get xbt transfers
     lastTransferTime = datetime.datetime.strptime(
         "2016-02-01", "%Y-%m-%d").isoformat() + ".000Z"
     result = cfPrivate.get_transfers(lastTransferTime=lastTransferTime)
-    print("get_transfers:\n", result)
+    my_print("get_transfers:\n", result)
 
     # transfer
     fromAccount = "fi_ethusd"
@@ -220,7 +248,7 @@ def APITester():
     unit = "eth"
     amount = 0.1
     result = cfPrivate.transfer(fromAccount, toAccount, unit, amount)
-    print("transfer:\n", result)
+    my_print("transfer:\n", result)
 
 
 APITester()

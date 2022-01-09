@@ -1,0 +1,2454 @@
+get_instruments:
+{
+ "result": "success",
+ "instruments": [
+  {
+   "symbol": "pi_xbtusd",
+   "type": "futures_inverse",
+   "underlying": "rr_xbtusd",
+   "tickSize": 0.5,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 8,
+   "maxRelativeFundingRate": 0.001,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "tags": []
+  },
+  {
+   "symbol": "pi_ethusd",
+   "type": "futures_inverse",
+   "underlying": "rr_ethusd",
+   "tickSize": 0.025,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 8,
+   "maxRelativeFundingRate": 0.001,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "tags": []
+  },
+  {
+   "symbol": "pi_xrpusd",
+   "type": "futures_inverse",
+   "underlying": "rr_xrpusd",
+   "tickSize": 0.0001,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 1,
+   "maxRelativeFundingRate": 0.005,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "",
+   "tags": []
+  },
+  {
+   "symbol": "pi_ltcusd",
+   "type": "futures_inverse",
+   "underlying": "rr_ltcusd",
+   "tickSize": 0.01,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 1,
+   "maxRelativeFundingRate": 0.005,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "",
+   "tags": []
+  },
+  {
+   "symbol": "pi_bchusd",
+   "type": "futures_inverse",
+   "underlying": "rr_bchusd",
+   "tickSize": 0.1,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 1,
+   "maxRelativeFundingRate": 0.005,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "",
+   "tags": []
+  },
+  {
+   "symbol": "fi_ltcusd_211231",
+   "type": "futures_inverse",
+   "underlying": "rr_ltcusd",
+   "lastTradingTime": "2021-12-31T16:00:00.000Z",
+   "tickSize": 0.01,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "tags": []
+  },
+  {
+   "symbol": "fi_xrpusd_211231",
+   "type": "futures_inverse",
+   "underlying": "rr_xrpusd",
+   "lastTradingTime": "2021-12-31T16:00:00.000Z",
+   "tickSize": 0.0001,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "tags": []
+  },
+  {
+   "symbol": "fi_xbtusd_211231",
+   "type": "futures_inverse",
+   "underlying": "rr_xbtusd",
+   "lastTradingTime": "2021-12-31T16:00:00.000Z",
+   "tickSize": 0.5,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "tags": []
+  },
+  {
+   "symbol": "fi_ethusd_211231",
+   "type": "futures_inverse",
+   "underlying": "rr_ethusd",
+   "lastTradingTime": "2021-12-31T16:00:00.000Z",
+   "tickSize": 0.025,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "tags": []
+  },
+  {
+   "symbol": "fi_bchusd_211231",
+   "type": "futures_inverse",
+   "underlying": "rr_bchusd",
+   "lastTradingTime": "2021-12-31T16:00:00.000Z",
+   "tickSize": 0.1,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "tags": []
+  },
+  {
+   "symbol": "fi_xbtusd_220325",
+   "type": "futures_inverse",
+   "underlying": "rr_xbtusd",
+   "lastTradingTime": "2022-03-25T16:00:00.000Z",
+   "tickSize": 1,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "tags": []
+  },
+  {
+   "symbol": "fi_ethusd_220325",
+   "type": "futures_inverse",
+   "underlying": "rr_ethusd",
+   "lastTradingTime": "2022-03-25T16:00:00.000Z",
+   "tickSize": 1,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "tags": []
+  },
+  {
+   "symbol": "fi_bchusd_220325",
+   "type": "futures_inverse",
+   "underlying": "rr_bchusd",
+   "lastTradingTime": "2022-03-25T16:00:00.000Z",
+   "tickSize": 0.1,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "tags": []
+  },
+  {
+   "symbol": "fi_xrpusd_220325",
+   "type": "futures_inverse",
+   "underlying": "rr_xrpusd",
+   "lastTradingTime": "2022-03-25T16:00:00.000Z",
+   "tickSize": 0.0001,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "tags": []
+  },
+  {
+   "symbol": "fi_ltcusd_220325",
+   "type": "futures_inverse",
+   "underlying": "rr_ltcusd",
+   "lastTradingTime": "2022-03-25T16:00:00.000Z",
+   "tickSize": 0.01,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "tags": []
+  },
+  {
+   "symbol": "pf_xbtusd",
+   "type": "flexible_futures",
+   "tickSize": 1,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 1,
+   "maxRelativeFundingRate": 0.005,
+   "contractValueTradePrecision": 4,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "majors",
+   "tags": []
+  },
+  {
+   "symbol": "pf_avaxusd",
+   "type": "flexible_futures",
+   "tickSize": 0.01,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 1,
+   "maxRelativeFundingRate": 0.005,
+   "contractValueTradePrecision": 2,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "Layer1",
+   "tags": []
+  },
+  {
+   "symbol": "pf_dotusd",
+   "type": "flexible_futures",
+   "tickSize": 0.001,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 1,
+   "maxRelativeFundingRate": 0.005,
+   "contractValueTradePrecision": 1,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "majors",
+   "tags": []
+  },
+  {
+   "symbol": "pf_adausd",
+   "type": "flexible_futures",
+   "tickSize": 0.0001,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 1,
+   "maxRelativeFundingRate": 0.005,
+   "contractValueTradePrecision": 0,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "majors",
+   "tags": []
+  },
+  {
+   "symbol": "pf_atomusd",
+   "type": "flexible_futures",
+   "tickSize": 0.001,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 1,
+   "maxRelativeFundingRate": 0.005,
+   "contractValueTradePrecision": 1,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "Layer1",
+   "tags": []
+  },
+  {
+   "symbol": "pf_eosusd",
+   "type": "flexible_futures",
+   "tickSize": 0.0001,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 1,
+   "maxRelativeFundingRate": 0.005,
+   "contractValueTradePrecision": 0,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "Layer1",
+   "tags": []
+  },
+  {
+   "symbol": "pf_solusd",
+   "type": "flexible_futures",
+   "tickSize": 0.01,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 1,
+   "maxRelativeFundingRate": 0.005,
+   "contractValueTradePrecision": 2,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "majors",
+   "tags": []
+  },
+  {
+   "symbol": "pf_ethusd",
+   "type": "flexible_futures",
+   "tickSize": 0.1,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 1,
+   "maxRelativeFundingRate": 0.005,
+   "contractValueTradePrecision": 3,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "majors",
+   "tags": []
+  },
+  {
+   "symbol": "pf_bchusd",
+   "type": "flexible_futures",
+   "tickSize": 0.01,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 1,
+   "maxRelativeFundingRate": 0.005,
+   "contractValueTradePrecision": 2,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "",
+   "tags": []
+  },
+  {
+   "symbol": "pf_linkusd",
+   "type": "flexible_futures",
+   "tickSize": 0.001,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 1,
+   "maxRelativeFundingRate": 0.005,
+   "contractValueTradePrecision": 1,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "defi",
+   "tags": []
+  },
+  {
+   "symbol": "pf_uniusd",
+   "type": "flexible_futures",
+   "tickSize": 0.001,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 1,
+   "maxRelativeFundingRate": 0.005,
+   "contractValueTradePrecision": 1,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "defi",
+   "tags": []
+  },
+  {
+   "symbol": "pf_ltcusd",
+   "type": "flexible_futures",
+   "tickSize": 0.01,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 1,
+   "maxRelativeFundingRate": 0.005,
+   "contractValueTradePrecision": 2,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "majors",
+   "tags": []
+  },
+  {
+   "symbol": "pf_lunausd",
+   "type": "flexible_futures",
+   "tickSize": 0.001,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 1,
+   "maxRelativeFundingRate": 0.005,
+   "contractValueTradePrecision": 1,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "defi",
+   "tags": []
+  },
+  {
+   "symbol": "pf_xrpusd",
+   "type": "flexible_futures",
+   "tickSize": 1e-05,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 1,
+   "maxRelativeFundingRate": 0.5,
+   "contractValueTradePrecision": 0,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "majors",
+   "tags": []
+  },
+  {
+   "symbol": "pf_xmrusd",
+   "type": "flexible_futures",
+   "tickSize": 0.01,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 1,
+   "maxRelativeFundingRate": 0.005,
+   "contractValueTradePrecision": 2,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "privacy",
+   "tags": []
+  },
+  {
+   "symbol": "fi_xbtusd_220128",
+   "type": "futures_inverse",
+   "underlying": "rr_xbtusd",
+   "lastTradingTime": "2022-01-28T16:00:00.000Z",
+   "tickSize": 1,
+   "contractSize": 0,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "isin": "isin",
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "Layer1",
+   "tags": []
+  },
+  {
+   "symbol": "in_xbtusd",
+   "type": "spot index",
+   "tradeable": false
+  },
+  {
+   "symbol": "in_xrpusd",
+   "type": "spot index",
+   "tradeable": false
+  },
+  {
+   "symbol": "in_ethusd",
+   "type": "spot index",
+   "tradeable": false
+  },
+  {
+   "symbol": "in_ltcusd",
+   "type": "spot index",
+   "tradeable": false
+  },
+  {
+   "symbol": "in_bchusd",
+   "type": "spot index",
+   "tradeable": false
+  },
+  {
+   "symbol": "rr_xbtusd",
+   "type": "spot index",
+   "tradeable": false
+  },
+  {
+   "symbol": "rr_xrpusd",
+   "type": "spot index",
+   "tradeable": false
+  },
+  {
+   "symbol": "rr_ethusd",
+   "type": "spot index",
+   "tradeable": false
+  },
+  {
+   "symbol": "rr_ltcusd",
+   "type": "spot index",
+   "tradeable": false
+  },
+  {
+   "symbol": "rr_bchusd",
+   "type": "spot index",
+   "tradeable": false
+  }
+ ],
+ "serverTime": "2021-12-16T15:17:41.511Z"
+}
+get_tickers:
+{
+ "result": "success",
+ "tickers": [
+  {
+   "tag": "perpetual",
+   "pair": "XBT:USD",
+   "symbol": "pi_xbtusd",
+   "markPrice": 48446,
+   "bid": 48391,
+   "bidSize": 100,
+   "ask": 48401,
+   "askSize": 100,
+   "vol24h": 607446,
+   "openInterest": 105141.0,
+   "open24h": 47002,
+   "indexPrice": 48384.78,
+   "last": 48386.5,
+   "lastTime": "2021-12-16T15:07:22.329Z",
+   "lastSize": 11,
+   "suspended": false,
+   "fundingRate": -1.827967598e-08,
+   "fundingRatePrediction": 1.788516884e-09
+  },
+  {
+   "tag": "perpetual",
+   "pair": "ETH:USD",
+   "symbol": "pi_ethusd",
+   "markPrice": 4016.499,
+   "bid": 4056.65,
+   "bidSize": 100,
+   "ask": 4057.475,
+   "askSize": 100,
+   "vol24h": 35265,
+   "openInterest": 17415.0,
+   "open24h": 3728,
+   "indexPrice": 4056.89,
+   "last": 4056.35,
+   "lastTime": "2021-12-16T15:14:35.545Z",
+   "lastSize": 32,
+   "suspended": false,
+   "fundingRate": 2.4580654042e-07,
+   "fundingRatePrediction": 2.46441386381e-07
+  },
+  {
+   "tag": "perpetual",
+   "pair": "XRP:USD",
+   "symbol": "pi_xrpusd",
+   "markPrice": 0.8293,
+   "bid": 0.8242,
+   "bidSize": 100,
+   "ask": 0.8244,
+   "askSize": 100,
+   "vol24h": 19002,
+   "openInterest": 1801.0,
+   "open24h": 0.8021,
+   "indexPrice": 0.82419,
+   "last": 0.8282,
+   "lastTime": "2021-12-16T14:32:32.449Z",
+   "lastSize": 1,
+   "suspended": false,
+   "fundingRate": 0.006045949214026602,
+   "fundingRatePrediction": 0.006065384848668648
+  },
+  {
+   "tag": "perpetual",
+   "pair": "LTC:USD",
+   "symbol": "pi_ltcusd",
+   "markPrice": 152.24,
+   "bid": 153.76,
+   "bidSize": 100,
+   "ask": 153.84,
+   "askSize": 100,
+   "vol24h": 64632,
+   "openInterest": 4250.0,
+   "open24h": 142.49,
+   "indexPrice": 153.78,
+   "last": 155.84,
+   "lastTime": "2021-12-16T11:41:18.405Z",
+   "lastSize": 2,
+   "suspended": false,
+   "fundingRate": 3.2400207361327e-05,
+   "fundingRatePrediction": 3.2511866831393e-05
+  },
+  {
+   "tag": "perpetual",
+   "pair": "BCH:USD",
+   "symbol": "pi_bchusd",
+   "markPrice": 442.1,
+   "bid": 446.4,
+   "bidSize": 100,
+   "ask": 446.6,
+   "askSize": 100,
+   "vol24h": 4100,
+   "openInterest": 0,
+   "open24h": 418.8,
+   "indexPrice": 446.51,
+   "last": 436.3,
+   "lastTime": "2021-12-15T19:05:42.665Z",
+   "lastSize": 800,
+   "suspended": false,
+   "fundingRate": -1.1166447059874e-05,
+   "fundingRatePrediction": -1.1193946313833e-05
+  },
+  {
+   "tag": "month",
+   "pair": "LTC:USD",
+   "symbol": "fi_ltcusd_211231",
+   "markPrice": 153.78,
+   "bid": 153.76,
+   "bidSize": 100,
+   "ask": 153.79,
+   "askSize": 100,
+   "vol24h": 3300,
+   "openInterest": 0,
+   "open24h": 142.49,
+   "indexPrice": 153.78,
+   "last": 146.88,
+   "lastTime": "2021-12-15T19:05:42.665Z",
+   "lastSize": 800,
+   "suspended": false
+  },
+  {
+   "tag": "month",
+   "pair": "XRP:USD",
+   "symbol": "fi_xrpusd_211231",
+   "markPrice": 0.8054,
+   "bid": 0.824,
+   "bidSize": 200,
+   "ask": 0.8242,
+   "askSize": 100,
+   "vol24h": 2400,
+   "openInterest": 0,
+   "open24h": 0.781,
+   "indexPrice": 0.82419,
+   "last": 0.7919,
+   "lastTime": "2021-12-15T19:05:42.665Z",
+   "lastSize": 800,
+   "suspended": false
+  },
+  {
+   "tag": "month",
+   "pair": "XBT:USD",
+   "symbol": "fi_xbtusd_211231",
+   "markPrice": 48285,
+   "bid": 48391,
+   "bidSize": 100,
+   "ask": 48401,
+   "askSize": 100,
+   "vol24h": 4000,
+   "openInterest": 0,
+   "open24h": 46918,
+   "indexPrice": 48384.78,
+   "last": 48133.5,
+   "lastTime": "2021-12-15T19:05:42.665Z",
+   "lastSize": 800,
+   "suspended": false
+  },
+  {
+   "tag": "month",
+   "pair": "ETH:USD",
+   "symbol": "fi_ethusd_211231",
+   "markPrice": 3964.755,
+   "bid": 4056.65,
+   "bidSize": 100,
+   "ask": 4057.475,
+   "askSize": 100,
+   "vol24h": 4100,
+   "openInterest": 0,
+   "open24h": 3693.55,
+   "indexPrice": 4056.89,
+   "last": 3800.375,
+   "lastTime": "2021-12-15T19:05:42.665Z",
+   "lastSize": 800,
+   "suspended": false
+  },
+  {
+   "tag": "month",
+   "pair": "BCH:USD",
+   "symbol": "fi_bchusd_211231",
+   "markPrice": 436.4,
+   "bid": 446.4,
+   "bidSize": 100,
+   "ask": 446.6,
+   "askSize": 100,
+   "vol24h": 4000,
+   "openInterest": 0,
+   "open24h": 418.8,
+   "indexPrice": 446.51,
+   "last": 424.5,
+   "lastTime": "2021-12-15T19:05:42.665Z",
+   "lastSize": 800,
+   "suspended": false
+  },
+  {
+   "tag": "quarter",
+   "pair": "XBT:USD",
+   "symbol": "fi_xbtusd_220325",
+   "markPrice": 47668,
+   "bid": 48394,
+   "bidSize": 100,
+   "ask": 48404,
+   "askSize": 100,
+   "vol24h": 4000,
+   "openInterest": 0,
+   "open24h": 46918,
+   "indexPrice": 48384.78,
+   "last": 47331,
+   "lastTime": "2021-12-15T19:05:42.665Z",
+   "lastSize": 800,
+   "suspended": false
+  },
+  {
+   "tag": "quarter",
+   "pair": "ETH:USD",
+   "symbol": "fi_ethusd_220325",
+   "markPrice": 3880,
+   "bid": 4056,
+   "bidSize": 100,
+   "ask": 4058,
+   "askSize": 100,
+   "vol24h": 3600,
+   "openInterest": 0,
+   "open24h": 3694,
+   "indexPrice": 4056.89,
+   "last": 3784,
+   "lastTime": "2021-12-15T19:05:42.665Z",
+   "lastSize": 800,
+   "suspended": false
+  },
+  {
+   "tag": "quarter",
+   "pair": "BCH:USD",
+   "symbol": "fi_bchusd_220325",
+   "markPrice": 432.8,
+   "bid": 446.4,
+   "bidSize": 100,
+   "ask": 446.6,
+   "askSize": 100,
+   "vol24h": 4000,
+   "openInterest": 0,
+   "open24h": 418.8,
+   "indexPrice": 446.51,
+   "last": 424.5,
+   "lastTime": "2021-12-15T19:05:42.665Z",
+   "lastSize": 800,
+   "suspended": false
+  },
+  {
+   "tag": "quarter",
+   "pair": "XRP:USD",
+   "symbol": "fi_xrpusd_220325",
+   "markPrice": 0.8028,
+   "bid": 0.824,
+   "bidSize": 200,
+   "ask": 0.8242,
+   "askSize": 100,
+   "vol24h": 3190,
+   "openInterest": 0,
+   "open24h": 0.8563,
+   "indexPrice": 0.82419,
+   "last": 0.8082,
+   "lastTime": "2021-12-15T19:05:42.665Z",
+   "lastSize": 800,
+   "suspended": false
+  },
+  {
+   "tag": "quarter",
+   "pair": "LTC:USD",
+   "symbol": "fi_ltcusd_220325",
+   "markPrice": 153.78,
+   "bid": 153.76,
+   "bidSize": 100,
+   "ask": 153.79,
+   "askSize": 100,
+   "vol24h": 3300,
+   "openInterest": 0,
+   "open24h": 142.49,
+   "indexPrice": 153.78,
+   "last": 146.36,
+   "lastTime": "2021-12-15T19:05:42.665Z",
+   "lastSize": 800,
+   "suspended": false
+  },
+  {
+   "tag": "perpetual",
+   "pair": "XBT:USD",
+   "symbol": "pf_xbtusd",
+   "markPrice": 48394,
+   "bid": 48391,
+   "bidSize": 0.4999,
+   "ask": 48401,
+   "askSize": 0.5,
+   "vol24h": 169.3379,
+   "openInterest": 9.0311,
+   "open24h": 47022,
+   "indexPrice": 48384.78,
+   "last": 48735,
+   "lastTime": "2021-12-16T14:06:45.870Z",
+   "lastSize": 0.5,
+   "suspended": false,
+   "fundingRate": -1.8551258874426504,
+   "fundingRatePrediction": -2.48774353002
+  },
+  {
+   "tag": "perpetual",
+   "pair": "AVAX:USD",
+   "symbol": "pf_avaxusd",
+   "markPrice": 107.96,
+   "bid": 107.95,
+   "bidSize": 50,
+   "ask": 107.98,
+   "askSize": 50,
+   "vol24h": 2400.3,
+   "openInterest": 0,
+   "open24h": 87.73,
+   "indexPrice": 107.94,
+   "last": 96.31,
+   "lastTime": "2021-12-15T19:05:42.665Z",
+   "lastSize": 400,
+   "suspended": false,
+   "fundingRate": -0.009595952695999964,
+   "fundingRatePrediction": -0.00502325406
+  },
+  {
+   "tag": "perpetual",
+   "pair": "DOT:USD",
+   "symbol": "pf_dotusd",
+   "markPrice": 26.874,
+   "bid": 26.871,
+   "bidSize": 500,
+   "ask": 26.876,
+   "askSize": 500,
+   "vol24h": 16022.5,
+   "openInterest": 0,
+   "open24h": 24.948,
+   "indexPrice": 26.868,
+   "last": 25.605,
+   "lastTime": "2021-12-15T19:05:42.665Z",
+   "lastSize": 4000,
+   "suspended": false,
+   "fundingRate": -0.000297904094,
+   "fundingRatePrediction": -0.001998439335
+  },
+  {
+   "tag": "perpetual",
+   "pair": "ADA:USD",
+   "symbol": "pf_adausd",
+   "markPrice": 1.2982,
+   "bid": 1.298,
+   "bidSize": 100,
+   "ask": 1.2983,
+   "askSize": 100,
+   "vol24h": 24012,
+   "openInterest": 79.0,
+   "open24h": 1.2152,
+   "indexPrice": 1.2978,
+   "last": 1.299,
+   "lastTime": "2021-12-16T13:09:43.976Z",
+   "lastSize": 7,
+   "suspended": false,
+   "fundingRate": -6.310056665e-05,
+   "fundingRatePrediction": -0.0002499043464
+  },
+  {
+   "tag": "perpetual",
+   "pair": "ATOM:USD",
+   "symbol": "pf_atomusd",
+   "markPrice": 22.932,
+   "bid": 22.93,
+   "bidSize": 500,
+   "ask": 22.935,
+   "askSize": 500,
+   "vol24h": 21791.4,
+   "openInterest": 0,
+   "open24h": 20.631,
+   "indexPrice": 22.931,
+   "last": 21.388,
+   "lastTime": "2021-12-15T19:05:42.665Z",
+   "lastSize": 4000,
+   "suspended": false,
+   "fundingRate": 9.98697448e-05,
+   "fundingRatePrediction": -0.002500001184
+  },
+  {
+   "tag": "perpetual",
+   "pair": "EOS:USD",
+   "symbol": "pf_eosusd",
+   "markPrice": 3.313,
+   "bid": 3.3126,
+   "bidSize": 100,
+   "ask": 3.3133,
+   "askSize": 100,
+   "vol24h": 5000,
+   "openInterest": 1200.0,
+   "open24h": 3.1593,
+   "indexPrice": 3.312,
+   "last": 3.3299,
+   "lastTime": "2021-12-16T12:43:55.603Z",
+   "lastSize": 100,
+   "suspended": false,
+   "fundingRate": -4.98995556e-05,
+   "fundingRatePrediction": -5.0016361e-05
+  },
+  {
+   "tag": "perpetual",
+   "pair": "SOL:USD",
+   "symbol": "pf_solusd",
+   "markPrice": 186.2,
+   "bid": 186.19,
+   "bidSize": 50,
+   "ask": 186.22,
+   "askSize": 50.63,
+   "vol24h": 26638.01,
+   "openInterest": 1255.28,
+   "open24h": 159.1,
+   "indexPrice": 186.21,
+   "last": 185.71,
+   "lastTime": "2021-12-16T13:34:35.170Z",
+   "lastSize": 50.42,
+   "suspended": false,
+   "fundingRate": -0.006606749673333395,
+   "fundingRatePrediction": 0.00499377978
+  },
+  {
+   "tag": "perpetual",
+   "pair": "ETH:USD",
+   "symbol": "pf_ethusd",
+   "markPrice": 4048.1,
+   "bid": 4057.4,
+   "bidSize": 5,
+   "ask": 4058.2,
+   "askSize": 5,
+   "vol24h": 182.21,
+   "openInterest": 0,
+   "open24h": 3742.5,
+   "indexPrice": 4056.89,
+   "last": 3845.1,
+   "lastTime": "2021-12-15T19:05:42.665Z",
+   "lastSize": 40,
+   "suspended": false,
+   "fundingRate": -20.3412,
+   "fundingRatePrediction": -20.2888
+  },
+  {
+   "tag": "perpetual",
+   "pair": "BCH:USD",
+   "symbol": "pf_bchusd",
+   "markPrice": 446.56,
+   "bid": 446.51,
+   "bidSize": 50,
+   "ask": 446.6,
+   "askSize": 50,
+   "vol24h": 2304.65,
+   "openInterest": 0,
+   "open24h": 423.68,
+   "indexPrice": 446.51,
+   "last": 426.99,
+   "lastTime": "2021-12-15T19:05:42.665Z",
+   "lastSize": 400,
+   "suspended": false,
+   "fundingRate": -0.001832603204666517,
+   "fundingRatePrediction": 0.01499560524
+  },
+  {
+   "tag": "perpetual",
+   "pair": "LINK:USD",
+   "symbol": "pf_linkusd",
+   "markPrice": 19.73,
+   "bid": 19.728,
+   "bidSize": 500,
+   "ask": 19.731,
+   "askSize": 500,
+   "vol24h": 16743.6,
+   "openInterest": 0,
+   "open24h": 17.678,
+   "indexPrice": 19.73,
+   "last": 18.122,
+   "lastTime": "2021-12-15T19:05:42.665Z",
+   "lastSize": 4000,
+   "suspended": false,
+   "fundingRate": -0.000497459346,
+   "fundingRatePrediction": -0.00450000936
+  },
+  {
+   "tag": "perpetual",
+   "pair": "UNI:USD",
+   "symbol": "pf_uniusd",
+   "markPrice": 15.02,
+   "bid": 15.019,
+   "bidSize": 500,
+   "ask": 15.022,
+   "askSize": 500,
+   "vol24h": 24428.4,
+   "openInterest": 0,
+   "open24h": 14.385,
+   "indexPrice": 15.021,
+   "last": 15.169,
+   "lastTime": "2021-12-16T07:07:53.304Z",
+   "lastSize": 195.2,
+   "suspended": false,
+   "fundingRate": -0.0004836026976,
+   "fundingRatePrediction": -0.000499868838
+  },
+  {
+   "tag": "perpetual",
+   "pair": "LTC:USD",
+   "symbol": "pf_ltcusd",
+   "markPrice": 153.78,
+   "bid": 153.76,
+   "bidSize": 50,
+   "ask": 153.79,
+   "askSize": 50,
+   "vol24h": 1806.18,
+   "openInterest": 0,
+   "open24h": 145.26,
+   "indexPrice": 153.78,
+   "last": 153.53,
+   "lastTime": "2021-12-16T05:17:00.273Z",
+   "lastSize": 26.33,
+   "suspended": false,
+   "fundingRate": -0.004816265472,
+   "fundingRatePrediction": -0.0050012508
+  },
+  {
+   "tag": "perpetual",
+   "pair": "LUNA:USD",
+   "symbol": "pf_lunausd",
+   "markPrice": 67.57,
+   "bid": 67.572,
+   "bidSize": 500,
+   "ask": 67.606,
+   "askSize": 502.9,
+   "vol24h": 64098.6,
+   "openInterest": 595.3,
+   "open24h": 55.885,
+   "indexPrice": 67.58,
+   "last": 65.446,
+   "lastTime": "2021-12-16T13:35:09.693Z",
+   "lastSize": 170.1,
+   "suspended": false,
+   "fundingRate": -0.004155216526333355,
+   "fundingRatePrediction": 0.00949858518
+  },
+  {
+   "tag": "perpetual",
+   "pair": "XRP:USD",
+   "symbol": "pf_xrpusd",
+   "markPrice": 0.82434,
+   "bid": 0.82411,
+   "bidSize": 100,
+   "ask": 0.82428,
+   "askSize": 100,
+   "vol24h": 846794,
+   "openInterest": 1500.0,
+   "open24h": 0.78658,
+   "indexPrice": 0.82419,
+   "last": 0.82472,
+   "lastTime": "2021-12-16T15:13:32.727Z",
+   "lastSize": 100,
+   "suspended": false,
+   "fundingRate": -1.671146466666e-06,
+   "fundingRatePrediction": -5.0021558e-06
+  },
+  {
+   "tag": "perpetual",
+   "pair": "XMR:USD",
+   "symbol": "pf_xmrusd",
+   "markPrice": 189.58,
+   "vol24h": 1618.05,
+   "openInterest": 12.0,
+   "open24h": 174,
+   "indexPrice": 194.47,
+   "last": 203,
+   "lastTime": "2021-12-16T13:03:47.033Z",
+   "lastSize": 11,
+   "suspended": false,
+   "fundingRate": 0.9665,
+   "fundingRatePrediction": -0.0052073984
+  },
+  {
+   "tag": "month",
+   "pair": "XBT:USD",
+   "symbol": "fi_xbtusd_220128",
+   "markPrice": 50729,
+   "bid": 50943,
+   "bidSize": 98,
+   "ask": 50953,
+   "askSize": 98,
+   "vol24h": 0,
+   "openInterest": 0,
+   "indexPrice": 48384.78,
+   "last": 50943,
+   "lastTime": "2021-12-14T17:34:27.416Z",
+   "lastSize": 1,
+   "suspended": false
+  },
+  {
+   "symbol": "in_xbtusd",
+   "last": 48385,
+   "lastTime": "2021-12-16T15:17:42.000Z"
+  },
+  {
+   "symbol": "in_xrpusd",
+   "last": 0.8242,
+   "lastTime": "2021-12-16T15:17:42.000Z"
+  },
+  {
+   "symbol": "in_ethusd",
+   "last": 4056.89,
+   "lastTime": "2021-12-16T15:17:42.000Z"
+  },
+  {
+   "symbol": "in_ltcusd",
+   "last": 153.78,
+   "lastTime": "2021-12-16T15:17:42.000Z"
+  },
+  {
+   "symbol": "in_bchusd",
+   "last": 446.51,
+   "lastTime": "2021-12-16T15:17:42.000Z"
+  },
+  {
+   "symbol": "rr_xbtusd",
+   "last": 47027,
+   "lastTime": "2021-12-15T16:00:00.000Z"
+  },
+  {
+   "symbol": "rr_xrpusd",
+   "last": 0.7867,
+   "lastTime": "2021-12-15T16:00:00.000Z"
+  },
+  {
+   "symbol": "rr_ethusd",
+   "last": 3725.18,
+   "lastTime": "2021-12-15T16:00:00.000Z"
+  },
+  {
+   "symbol": "rr_ltcusd",
+   "last": 144.97,
+   "lastTime": "2021-12-15T16:00:00.000Z"
+  },
+  {
+   "symbol": "rr_bchusd",
+   "last": 423.15,
+   "lastTime": "2021-12-15T16:00:00.000Z"
+  }
+ ],
+ "serverTime": "2021-12-16T15:17:42.598Z"
+}
+get_orderbook:
+{
+ "result": "success",
+ "orderBook": {
+  "bids": [
+   [
+    48391,
+    100
+   ],
+   [
+    48386.5,
+    100
+   ],
+   [
+    48381.5,
+    100
+   ],
+   [
+    48376.5,
+    100
+   ],
+   [
+    48372,
+    100
+   ],
+   [
+    48367,
+    100
+   ],
+   [
+    48362,
+    100
+   ],
+   [
+    48357.5,
+    100
+   ],
+   [
+    46894.5,
+    100
+   ],
+   [
+    46892,
+    100
+   ],
+   [
+    46890,
+    100
+   ],
+   [
+    46887,
+    100
+   ],
+   [
+    46885,
+    100
+   ],
+   [
+    44500,
+    15183
+   ],
+   [
+    30000,
+    19267
+   ],
+   [
+    5483,
+    104
+   ],
+   [
+    5000,
+    5006
+   ],
+   [
+    4960,
+    1
+   ],
+   [
+    4600,
+    1
+   ],
+   [
+    4000,
+    1000
+   ],
+   [
+    3900,
+    2010
+   ],
+   [
+    3600,
+    1
+   ],
+   [
+    3443,
+    1114
+   ],
+   [
+    3330,
+    1
+   ],
+   [
+    3300,
+    1
+   ],
+   [
+    3200,
+    1
+   ],
+   [
+    3000,
+    2000
+   ],
+   [
+    2130,
+    28
+   ],
+   [
+    2000,
+    13000
+   ],
+   [
+    1500,
+    1100
+   ],
+   [
+    1499.5,
+    1500
+   ],
+   [
+    1200,
+    1
+   ],
+   [
+    1000,
+    27231
+   ],
+   [
+    800,
+    3
+   ],
+   [
+    600,
+    600
+   ],
+   [
+    500,
+    1911
+   ],
+   [
+    366,
+    3
+   ],
+   [
+    250,
+    20
+   ],
+   [
+    238,
+    776
+   ],
+   [
+    200,
+    108
+   ],
+   [
+    150,
+    500
+   ],
+   [
+    144,
+    15
+   ],
+   [
+    120,
+    100
+   ],
+   [
+    100,
+    731
+   ],
+   [
+    68,
+    546
+   ],
+   [
+    60,
+    60
+   ],
+   [
+    50,
+    2
+   ],
+   [
+    48,
+    1
+   ],
+   [
+    40,
+    170
+   ],
+   [
+    35,
+    20
+   ],
+   [
+    32,
+    1
+   ],
+   [
+    30,
+    2
+   ],
+   [
+    20,
+    50
+   ],
+   [
+    15,
+    3
+   ],
+   [
+    14,
+    2
+   ],
+   [
+    11,
+    11
+   ],
+   [
+    10,
+    10069
+   ],
+   [
+    6,
+    1
+   ],
+   [
+    5,
+    11
+   ],
+   [
+    4.5,
+    88
+   ],
+   [
+    2,
+    10
+   ],
+   [
+    1.5,
+    1
+   ],
+   [
+    1,
+    74
+   ],
+   [
+    0.5,
+    19
+   ]
+  ],
+  "asks": [
+   [
+    48401,
+    100
+   ],
+   [
+    48406,
+    100
+   ],
+   [
+    48410.5,
+    100
+   ],
+   [
+    48415.5,
+    100
+   ],
+   [
+    48420.5,
+    100
+   ],
+   [
+    48425,
+    100
+   ],
+   [
+    48430,
+    100
+   ],
+   [
+    48435,
+    100
+   ],
+   [
+    50000,
+    22078
+   ],
+   [
+    114000,
+    1
+   ],
+   [
+    389200,
+    109
+   ],
+   [
+    413323,
+    1500
+   ],
+   [
+    484464.5,
+    5
+   ],
+   [
+    490000,
+    1
+   ],
+   [
+    496715.5,
+    5000
+   ],
+   [
+    512116,
+    790
+   ],
+   [
+    580000,
+    5
+   ],
+   [
+    624701,
+    12
+   ],
+   [
+    3696922,
+    1
+   ]
+  ]
+ },
+ "serverTime": "2021-12-16T15:17:43.273Z"
+}
+get_history:
+{
+ "result": "success",
+ "history": [],
+ "serverTime": "2021-12-16T15:17:43.944Z"
+}
+get_market_price:
+0 elements
+get_accounts:
+{
+ "result": "success",
+ "accounts": {
+  "fi_xbtusd": {
+   "auxiliary": {
+    "usd": 0,
+    "pv": 0.1025450029,
+    "pnl": 0.0,
+    "af": 0.1025450029,
+    "funding": 0.0
+   },
+   "marginRequirements": {
+    "im": 0.0,
+    "mm": 0.0,
+    "lt": 0.0,
+    "tt": 0.0
+   },
+   "triggerEstimates": {
+    "im": 0,
+    "mm": 0,
+    "lt": 0,
+    "tt": 0
+   },
+   "balances": {
+    "usdt": 0.0,
+    "xrp": 0.0,
+    "bch": 0.0,
+    "xbt": 0.1025450029,
+    "ltc": 0.0,
+    "usdc": 0.0,
+    "usd": 0.0,
+    "eth": 0.0
+   },
+   "currency": "xbt",
+   "type": "marginAccount"
+  },
+  "cash": {
+   "balances": {
+    "bch": 11.1637045637,
+    "xrp": 6057.4488448445,
+    "usd": 5000.0,
+    "eth": 1.6326777953,
+    "usdt": 4997.5012493753,
+    "ltc": 32.3310701584,
+    "usdc": 4997.0017989206,
+    "xbt": 0.1025450029
+   },
+   "type": "cashAccount"
+  },
+  "fi_xrpusd": {
+   "auxiliary": {
+    "usd": 0,
+    "pv": 6057.4488448445,
+    "pnl": 0.0,
+    "af": 6057.4488448445,
+    "funding": 0.0
+   },
+   "marginRequirements": {
+    "im": 0.0,
+    "mm": 0.0,
+    "lt": 0.0,
+    "tt": 0.0
+   },
+   "triggerEstimates": {
+    "im": 0,
+    "mm": 0,
+    "lt": 0,
+    "tt": 0
+   },
+   "balances": {
+    "usdt": 0.0,
+    "xrp": 6057.4488448445,
+    "bch": 0.0,
+    "xbt": 0.0,
+    "ltc": 0.0,
+    "usdc": 0.0,
+    "usd": 0.0,
+    "eth": 0.0
+   },
+   "currency": "xrp",
+   "type": "marginAccount"
+  },
+  "fi_ethusd": {
+   "auxiliary": {
+    "usd": 0,
+    "pv": 0.8326777953,
+    "pnl": 0.0,
+    "af": 0.8326777953,
+    "funding": 0.0
+   },
+   "marginRequirements": {
+    "im": 0.0,
+    "mm": 0.0,
+    "lt": 0.0,
+    "tt": 0.0
+   },
+   "triggerEstimates": {
+    "im": 0,
+    "mm": 0,
+    "lt": 0,
+    "tt": 0
+   },
+   "balances": {
+    "usdt": 0.0,
+    "xrp": 0.0,
+    "bch": 0.0,
+    "xbt": 0.0,
+    "ltc": 0.0,
+    "usdc": 0.0,
+    "usd": 0.0,
+    "eth": 0.8326777953
+   },
+   "currency": "eth",
+   "type": "marginAccount"
+  },
+  "fi_ltcusd": {
+   "auxiliary": {
+    "usd": 0,
+    "pv": 32.3310701584,
+    "pnl": 0.0,
+    "af": 32.3310701584,
+    "funding": 0.0
+   },
+   "marginRequirements": {
+    "im": 0.0,
+    "mm": 0.0,
+    "lt": 0.0,
+    "tt": 0.0
+   },
+   "triggerEstimates": {
+    "im": 0,
+    "mm": 0,
+    "lt": 0,
+    "tt": 0
+   },
+   "balances": {
+    "usdt": 0.0,
+    "xrp": 0.0,
+    "bch": 0.0,
+    "xbt": 0.0,
+    "ltc": 32.3310701584,
+    "usdc": 0.0,
+    "usd": 0.0,
+    "eth": 0.0
+   },
+   "currency": "ltc",
+   "type": "marginAccount"
+  },
+  "fi_bchusd": {
+   "auxiliary": {
+    "usd": 0,
+    "pv": 11.1637045637,
+    "pnl": 0.0,
+    "af": 11.1637045637,
+    "funding": 0.0
+   },
+   "marginRequirements": {
+    "im": 0.0,
+    "mm": 0.0,
+    "lt": 0.0,
+    "tt": 0.0
+   },
+   "triggerEstimates": {
+    "im": 0,
+    "mm": 0,
+    "lt": 0,
+    "tt": 0
+   },
+   "balances": {
+    "usdt": 0.0,
+    "xrp": 0.0,
+    "bch": 11.1637045637,
+    "xbt": 0.0,
+    "ltc": 0.0,
+    "usdc": 0.0,
+    "usd": 0.0,
+    "eth": 0.0
+   },
+   "currency": "bch",
+   "type": "marginAccount"
+  },
+  "fv_xbteur": {
+   "auxiliary": {
+    "usd": 0,
+    "pv": 0.1025450029,
+    "pnl": 0.0,
+    "af": 0.1025450029,
+    "funding": 0.0
+   },
+   "marginRequirements": {
+    "im": 0.0,
+    "mm": 0.0,
+    "lt": 0.0,
+    "tt": 0.0
+   },
+   "triggerEstimates": {
+    "im": 0,
+    "mm": 0,
+    "lt": 0,
+    "tt": 0
+   },
+   "balances": {
+    "usdt": 0.0,
+    "xrp": 0.0,
+    "bch": 0.0,
+    "xbt": 0.0,
+    "ltc": 0.0,
+    "usdc": 0.0,
+    "usd": 0.0,
+    "eth": 0.0
+   },
+   "currency": "eur",
+   "type": "marginAccount"
+  },
+  "fv_etheur": {
+   "auxiliary": {
+    "usd": 0,
+    "pv": 1.2326777953,
+    "pnl": 0.0,
+    "af": 1.2326777953,
+    "funding": 0.0
+   },
+   "marginRequirements": {
+    "im": 0.0,
+    "mm": 0.0,
+    "lt": 0.0,
+    "tt": 0.0
+   },
+   "triggerEstimates": {
+    "im": 0,
+    "mm": 0,
+    "lt": 0,
+    "tt": 0
+   },
+   "balances": {
+    "usdt": 0.0,
+    "xrp": 0.0,
+    "bch": 0.0,
+    "xbt": 0.0,
+    "ltc": 0.0,
+    "usdc": 0.0,
+    "usd": 0.0,
+    "eth": 0.0
+   },
+   "currency": "eur",
+   "type": "marginAccount"
+  },
+  "flex": {
+   "currencies": {
+    "BTC": {
+     "quantity": 0.1025450029,
+     "value": 4961.247217955393,
+     "collateral": 4849.86721791229,
+     "available": 0.1025450029
+    },
+    "ETH": {
+     "quantity": 1.2326777953,
+     "value": 5000.184901743108,
+     "collateral": 4887.930750698975,
+     "available": 1.2326777953
+    },
+    "USD": {
+     "quantity": 5000.0,
+     "value": 5000.0,
+     "collateral": 5000.0,
+     "available": 5000.0
+    },
+    "USDC": {
+     "quantity": 4997.0017989206,
+     "value": 4999.000599640168,
+     "collateral": 4936.638067159659,
+     "available": 4997.0017989206
+    },
+    "USDT": {
+     "quantity": 4997.5012493753,
+     "value": 4998.500749625175,
+     "collateral": 4487.404047975999,
+     "available": 4997.5012493753
+    }
+   },
+   "initialMargin": 0.0,
+   "initialMarginWithOrders": 0.0,
+   "maintenanceMargin": 0.0,
+   "balanceValue": 24958.93,
+   "portfolioValue": 24161.84,
+   "collateralValue": 24161.84,
+   "pnl": 0.0,
+   "unrealizedFunding": 0.0,
+   "totalUnrealized": 0.0,
+   "totalUnrealizedAsMargin": 0.0,
+   "availableMargin": 24161.84,
+   "marginEquity": 24161.84,
+   "type": "multiCollateralMarginAccount"
+  }
+ },
+ "serverTime": "2021-12-16T15:17:45.703Z"
+}
+send_order (limit):
+{
+ "result": "success",
+ "sendStatus": {
+  "order_id": "2d1b8872-0dcc-45d1-b95d-31744ae45250",
+  "status": "placed",
+  "receivedTime": "2021-12-16T15:17:46.378Z",
+  "orderEvents": [
+   {
+    "order": {
+     "orderId": "2d1b8872-0dcc-45d1-b95d-31744ae45250",
+     "cliOrdId": null,
+     "type": "lmt",
+     "symbol": "pi_xbtusd",
+     "side": "buy",
+     "quantity": 1,
+     "filled": 0,
+     "limitPrice": 1.0,
+     "reduceOnly": false,
+     "timestamp": "2021-12-16T15:17:46.378Z",
+     "lastUpdateTimestamp": "2021-12-16T15:17:46.378Z"
+    },
+    "reducedQuantity": null,
+    "type": "PLACE"
+   }
+  ]
+ },
+ "serverTime": "2021-12-16T15:17:46.378Z"
+}
+send_order (stop):
+{
+ "result": "success",
+ "sendStatus": {
+  "order_id": "cbbf8e90-471f-4fd8-9e62-0451999e4830",
+  "cliOrdId": "my_stop_client_id",
+  "status": "placed",
+  "receivedTime": "2021-12-16T15:17:47.063Z",
+  "orderEvents": [
+   {
+    "orderTrigger": {
+     "uid": "cbbf8e90-471f-4fd8-9e62-0451999e4830",
+     "clientId": "my_stop_client_id",
+     "type": "lmt",
+     "symbol": "pi_xbtusd",
+     "side": "buy",
+     "quantity": 1,
+     "limitPrice": 1.0,
+     "triggerPrice": 2.0,
+     "triggerSide": "trigger_above",
+     "triggerSignal": "last_price",
+     "reduceOnly": false,
+     "timestamp": "2021-12-16T15:17:47.063Z",
+     "lastUpdateTimestamp": "2021-12-16T15:17:47.063Z",
+     "startTime": null
+    },
+    "type": "PLACE"
+   }
+  ]
+ },
+ "serverTime": "2021-12-16T15:17:47.134Z"
+}
+edit_order (stop):
+{
+ "result": "success",
+ "serverTime": "2021-12-16T15:17:47.410Z",
+ "editStatus": {
+  "status": "edited",
+  "orderId": "cbbf8e90-471f-4fd8-9e62-0451999e4830",
+  "cliOrdId": "my_stop_client_id",
+  "receivedTime": "2021-12-16T15:17:47.410Z",
+  "orderEvents": [
+   {
+    "old": {
+     "uid": "cbbf8e90-471f-4fd8-9e62-0451999e4830",
+     "clientId": "my_stop_client_id",
+     "type": "lmt",
+     "symbol": "pi_xbtusd",
+     "side": "buy",
+     "quantity": 1,
+     "limitPrice": 1.0,
+     "triggerPrice": 2.0,
+     "triggerSide": "trigger_above",
+     "triggerSignal": "last_price",
+     "reduceOnly": false,
+     "timestamp": "2021-12-16T15:17:47.063Z",
+     "lastUpdateTimestamp": "2021-12-16T15:17:47.063Z",
+     "startTime": null
+    },
+    "new": {
+     "uid": "cbbf8e90-471f-4fd8-9e62-0451999e4830",
+     "clientId": "my_stop_client_id",
+     "type": "lmt",
+     "symbol": "pi_xbtusd",
+     "side": "buy",
+     "quantity": 2,
+     "limitPrice": 1.5,
+     "triggerPrice": 2.5,
+     "triggerSide": "trigger_above",
+     "triggerSignal": "last_price",
+     "reduceOnly": false,
+     "timestamp": "2021-12-16T15:17:47.063Z",
+     "lastUpdateTimestamp": "2021-12-16T15:17:47.408Z",
+     "startTime": null
+    },
+    "type": "EDIT"
+   }
+  ]
+ }
+}
+cancel_order:
+{
+ "result": "success",
+ "cancelStatus": {
+  "status": "notFound",
+  "receivedTime": "2021-12-16T15:17:48.074Z"
+ },
+ "serverTime": "2021-12-16T15:17:48.074Z"
+}
+cancel_all_orders:
+{
+ "result": "success",
+ "cancelStatus": {
+  "receivedTime": "2021-12-16T15:17:48.782Z",
+  "cancelOnly": "fi_xbtusd",
+  "status": "cancelled",
+  "cancelledOrders": [
+   {
+    "order_id": "2d1b8872-0dcc-45d1-b95d-31744ae45250"
+   },
+   {
+    "cliOrdId": "my_stop_client_id",
+    "order_id": "cbbf8e90-471f-4fd8-9e62-0451999e4830"
+   }
+  ],
+  "orderEvents": [
+   {
+    "uid": "2d1b8872-0dcc-45d1-b95d-31744ae45250",
+    "order": {
+     "orderId": "2d1b8872-0dcc-45d1-b95d-31744ae45250",
+     "cliOrdId": null,
+     "type": "lmt",
+     "symbol": "pi_xbtusd",
+     "side": "buy",
+     "quantity": 1,
+     "filled": 0,
+     "limitPrice": 1.0,
+     "reduceOnly": false,
+     "timestamp": "2021-12-16T15:17:46.378Z",
+     "lastUpdateTimestamp": "2021-12-16T15:17:46.378Z"
+    },
+    "type": "CANCEL"
+   }
+  ]
+ },
+ "serverTime": "2021-12-16T15:17:48.861Z"
+}
+cancel_all_orders_after:
+{
+ "result": "success",
+ "serverTime": "2021-12-16T15:17:49.163Z",
+ "status": {
+  "currentTime": "2021-12-16T15:17:49.163Z",
+  "triggerTime": "2021-12-16T15:18:49.163Z"
+ }
+}
+send_batchorder:
+{
+ "result": "success",
+ "serverTime": "2021-12-16T15:17:49.449Z",
+ "batchStatus": [
+  {
+   "status": "placed",
+   "order_tag": "1",
+   "order_id": "d55ed871-cd06-45f7-9a28-e5825d155d38",
+   "cliOrdId": "my_another_client_id",
+   "dateTimeReceived": "2021-12-16T15:17:49.414Z",
+   "orderEvents": [
+    {
+     "order": {
+      "orderId": "d55ed871-cd06-45f7-9a28-e5825d155d38",
+      "cliOrdId": "my_another_client_id",
+      "type": "lmt",
+      "symbol": "pi_xbtusd",
+      "side": "buy",
+      "quantity": 1,
+      "filled": 0,
+      "limitPrice": 1.0,
+      "reduceOnly": false,
+      "timestamp": "2021-12-16T15:17:49.414Z",
+      "lastUpdateTimestamp": "2021-12-16T15:17:49.414Z"
+     },
+     "reducedQuantity": null,
+     "type": "PLACE"
+    }
+   ]
+  },
+  {
+   "status": "placed",
+   "order_tag": "2",
+   "order_id": "cc804122-e5cc-47a1-b7b2-5be3972adadd",
+   "dateTimeReceived": "2021-12-16T15:17:49.414Z",
+   "orderEvents": [
+    {
+     "orderTrigger": {
+      "uid": "cc804122-e5cc-47a1-b7b2-5be3972adadd",
+      "clientId": null,
+      "type": "lmt",
+      "symbol": "pi_xbtusd",
+      "side": "buy",
+      "quantity": 1,
+      "limitPrice": 2.0,
+      "triggerPrice": 3.0,
+      "triggerSide": "trigger_above",
+      "triggerSignal": "last_price",
+      "reduceOnly": false,
+      "timestamp": "2021-12-16T15:17:49.414Z",
+      "lastUpdateTimestamp": "2021-12-16T15:17:49.414Z",
+      "startTime": null
+     },
+     "type": "PLACE"
+    }
+   ]
+  },
+  {
+   "status": "notFound",
+   "order_id": "e35d61dd-8a30-4d5f-a574-b5593ef0c050",
+   "orderEvents": []
+  },
+  {
+   "status": "notFound",
+   "cliOrdId": "my_client_id",
+   "orderEvents": []
+  }
+ ]
+}
+get_openorders:
+{
+ "result": "success",
+ "openOrders": [
+  {
+   "order_id": "cc804122-e5cc-47a1-b7b2-5be3972adadd",
+   "symbol": "pi_xbtusd",
+   "side": "buy",
+   "orderType": "stop",
+   "limitPrice": 2,
+   "stopPrice": 3,
+   "unfilledSize": 1,
+   "receivedTime": "2021-12-16T15:17:49.414Z",
+   "status": "untouched",
+   "filledSize": 0,
+   "reduceOnly": false,
+   "triggerSignal": "last",
+   "lastUpdateTime": "2021-12-16T15:17:49.414Z"
+  },
+  {
+   "order_id": "d55ed871-cd06-45f7-9a28-e5825d155d38",
+   "cliOrdId": "my_another_client_id",
+   "symbol": "pi_xbtusd",
+   "side": "buy",
+   "orderType": "lmt",
+   "limitPrice": 1,
+   "unfilledSize": 1,
+   "receivedTime": "2021-12-16T15:17:49.414Z",
+   "status": "untouched",
+   "filledSize": 0,
+   "reduceOnly": false,
+   "lastUpdateTime": "2021-12-16T15:17:49.414Z"
+  }
+ ],
+ "serverTime": "2021-12-16T15:17:50.122Z"
+}
+get_fills:
+{
+ "result": "success",
+ "fills": [],
+ "serverTime": "2021-12-16T15:17:50.382Z"
+}
+get_openpositions:
+{
+ "result": "success",
+ "openPositions": [],
+ "serverTime": "2021-12-16T15:17:51.034Z"
+}
+get_orders(since=1609470000000, sort="asc", limit=10000):
+0 elements
+get_orders:
+0 elements
+get_executions(since=1609470000000, sort="asc", limit=10000):
+0 elements
+get_executions:
+0 elements
+get_historical_executions:
+0 elements
+get_recent_executions:
+0 elements
+send_withdrawal:
+{
+ "result": "success",
+ "withdrawal": {
+  "status": "failed"
+ },
+ "serverTime": "2021-12-16T15:17:54.512Z"
+}
+get_transfers:
+{
+ "result": "success",
+ "transfers": [],
+ "serverTime": "2021-12-16T15:17:54.772Z"
+}
+transfer:
+{
+ "result": "success",
+ "serverTime": "2021-12-16T15:17:55.033Z"
+}
