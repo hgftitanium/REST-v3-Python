@@ -1,0 +1,298 @@
+get_accounts:
+{
+ "result": "success",
+ "accounts": {
+  "fi_xbtusd": {
+   "auxiliary": {
+    "usd": 0,
+    "pv": 0.1025450029,
+    "pnl": 0.0,
+    "af": 0.1025450029,
+    "funding": 0.0
+   },
+   "marginRequirements": {
+    "im": 0.0,
+    "mm": 0.0,
+    "lt": 0.0,
+    "tt": 0.0
+   },
+   "triggerEstimates": {
+    "im": 0,
+    "mm": 0,
+    "lt": 0,
+    "tt": 0
+   },
+   "balances": {
+    "usdt": 0.0,
+    "xrp": 0.0,
+    "bch": 0.0,
+    "xbt": 0.1025450029,
+    "ltc": 0.0,
+    "usdc": 0.0,
+    "usd": 0.0,
+    "eth": 0.0
+   },
+   "currency": "xbt",
+   "type": "marginAccount"
+  },
+  "cash": {
+   "balances": {
+    "bch": 11.1637045637,
+    "xrp": 6057.4488448445,
+    "usd": 5000.0,
+    "eth": 1.9326777953,
+    "usdt": 4997.5012493753,
+    "ltc": 32.3310701584,
+    "usdc": 4997.0017989206,
+    "xbt": 0.1025450029
+   },
+   "type": "cashAccount"
+  },
+  "fi_xrpusd": {
+   "auxiliary": {
+    "usd": 0,
+    "pv": 6057.4488448445,
+    "pnl": 0.0,
+    "af": 6057.4488448445,
+    "funding": 0.0
+   },
+   "marginRequirements": {
+    "im": 0.0,
+    "mm": 0.0,
+    "lt": 0.0,
+    "tt": 0.0
+   },
+   "triggerEstimates": {
+    "im": 0,
+    "mm": 0,
+    "lt": 0,
+    "tt": 0
+   },
+   "balances": {
+    "usdt": 0.0,
+    "xrp": 6057.4488448445,
+    "bch": 0.0,
+    "xbt": 0.0,
+    "ltc": 0.0,
+    "usdc": 0.0,
+    "usd": 0.0,
+    "eth": 0.0
+   },
+   "currency": "xrp",
+   "type": "marginAccount"
+  },
+  "fi_ethusd": {
+   "auxiliary": {
+    "usd": 0,
+    "pv": 0.5326777953,
+    "pnl": 0.0,
+    "af": 0.5326777953,
+    "funding": 0.0
+   },
+   "marginRequirements": {
+    "im": 0.0,
+    "mm": 0.0,
+    "lt": 0.0,
+    "tt": 0.0
+   },
+   "triggerEstimates": {
+    "im": 0,
+    "mm": 0,
+    "lt": 0,
+    "tt": 0
+   },
+   "balances": {
+    "usdt": 0.0,
+    "xrp": 0.0,
+    "bch": 0.0,
+    "xbt": 0.0,
+    "ltc": 0.0,
+    "usdc": 0.0,
+    "usd": 0.0,
+    "eth": 0.5326777953
+   },
+   "currency": "eth",
+   "type": "marginAccount"
+  },
+  "fi_ltcusd": {
+   "auxiliary": {
+    "usd": 0,
+    "pv": 32.3310701584,
+    "pnl": 0.0,
+    "af": 32.3310701584,
+    "funding": 0.0
+   },
+   "marginRequirements": {
+    "im": 0.0,
+    "mm": 0.0,
+    "lt": 0.0,
+    "tt": 0.0
+   },
+   "triggerEstimates": {
+    "im": 0,
+    "mm": 0,
+    "lt": 0,
+    "tt": 0
+   },
+   "balances": {
+    "usdt": 0.0,
+    "xrp": 0.0,
+    "bch": 0.0,
+    "xbt": 0.0,
+    "ltc": 32.3310701584,
+    "usdc": 0.0,
+    "usd": 0.0,
+    "eth": 0.0
+   },
+   "currency": "ltc",
+   "type": "marginAccount"
+  },
+  "fi_bchusd": {
+   "auxiliary": {
+    "usd": 0,
+    "pv": 11.1637045637,
+    "pnl": 0.0,
+    "af": 11.1637045637,
+    "funding": 0.0
+   },
+   "marginRequirements": {
+    "im": 0.0,
+    "mm": 0.0,
+    "lt": 0.0,
+    "tt": 0.0
+   },
+   "triggerEstimates": {
+    "im": 0,
+    "mm": 0,
+    "lt": 0,
+    "tt": 0
+   },
+   "balances": {
+    "usdt": 0.0,
+    "xrp": 0.0,
+    "bch": 11.1637045637,
+    "xbt": 0.0,
+    "ltc": 0.0,
+    "usdc": 0.0,
+    "usd": 0.0,
+    "eth": 0.0
+   },
+   "currency": "bch",
+   "type": "marginAccount"
+  },
+  "fv_xbteur": {
+   "auxiliary": {
+    "usd": 0,
+    "pv": 0.1025450029,
+    "pnl": 0.0,
+    "af": 0.1025450029,
+    "funding": 0.0
+   },
+   "marginRequirements": {
+    "im": 0.0,
+    "mm": 0.0,
+    "lt": 0.0,
+    "tt": 0.0
+   },
+   "triggerEstimates": {
+    "im": 0,
+    "mm": 0,
+    "lt": 0,
+    "tt": 0
+   },
+   "balances": {
+    "usdt": 0.0,
+    "xrp": 0.0,
+    "bch": 0.0,
+    "xbt": 0.0,
+    "ltc": 0.0,
+    "usdc": 0.0,
+    "usd": 0.0,
+    "eth": 0.0
+   },
+   "currency": "eur",
+   "type": "marginAccount"
+  },
+  "fv_etheur": {
+   "auxiliary": {
+    "usd": 0,
+    "pv": 1.2326777953,
+    "pnl": 0.0,
+    "af": 1.2326777953,
+    "funding": 0.0
+   },
+   "marginRequirements": {
+    "im": 0.0,
+    "mm": 0.0,
+    "lt": 0.0,
+    "tt": 0.0
+   },
+   "triggerEstimates": {
+    "im": 0,
+    "mm": 0,
+    "lt": 0,
+    "tt": 0
+   },
+   "balances": {
+    "usdt": 0.0,
+    "xrp": 0.0,
+    "bch": 0.0,
+    "xbt": 0.0,
+    "ltc": 0.0,
+    "usdc": 0.0,
+    "usd": 0.0,
+    "eth": 0.0
+   },
+   "currency": "eur",
+   "type": "marginAccount"
+  },
+  "flex": {
+   "currencies": {
+    "ETH": {
+     "quantity": 1.2326777953,
+     "value": 4162.124249052497,
+     "collateral": 4068.6845596612725,
+     "available": 1.2326777953
+    },
+    "BTC": {
+     "quantity": 0.1025450029,
+     "value": 4485.307146895681,
+     "collateral": 4384.612001447871,
+     "available": 0.1025450029
+    },
+    "USD": {
+     "quantity": 5000.0,
+     "value": 5000.0,
+     "collateral": 5000.0,
+     "available": 5000.0
+    },
+    "USDT": {
+     "quantity": 4997.5012493753,
+     "value": 4999.999999999987,
+     "collateral": 4488.749999999991,
+     "available": 4997.5012493753
+    },
+    "USDC": {
+     "quantity": 4997.0017989206,
+     "value": 5001.499100539629,
+     "collateral": 4939.1053992603975,
+     "available": 4997.0017989206
+    }
+   },
+   "initialMargin": 0.0,
+   "initialMarginWithOrders": 0.0,
+   "maintenanceMargin": 0.0,
+   "balanceValue": 23648.93,
+   "portfolioValue": 22881.15,
+   "collateralValue": 22881.15,
+   "pnl": 0.0,
+   "unrealizedFunding": 0.0,
+   "totalUnrealized": 0.0,
+   "totalUnrealizedAsMargin": 0.0,
+   "availableMargin": 22881.15,
+   "marginEquity": 22881.15,
+   "type": "multiCollateralMarginAccount"
+  }
+ },
+ "serverTime": "2022-01-12T20:32:17.081Z"
+}

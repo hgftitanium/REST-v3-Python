@@ -1,0 +1,1522 @@
+get_instruments:
+{
+ "result": "success",
+ "instruments": [
+  {
+   "symbol": "pi_xbtusd",
+   "type": "futures_inverse",
+   "underlying": "rr_xbtusd",
+   "tickSize": 0.5,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 8,
+   "maxRelativeFundingRate": 0.001,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "",
+   "tags": []
+  },
+  {
+   "symbol": "pi_ethusd",
+   "type": "futures_inverse",
+   "underlying": "rr_ethusd",
+   "tickSize": 0.025,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 8,
+   "maxRelativeFundingRate": 0.001,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "tags": []
+  },
+  {
+   "symbol": "pi_xrpusd",
+   "type": "futures_inverse",
+   "underlying": "rr_xrpusd",
+   "tickSize": 0.0001,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 1,
+   "maxRelativeFundingRate": 0.005,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "",
+   "tags": []
+  },
+  {
+   "symbol": "pi_ltcusd",
+   "type": "futures_inverse",
+   "underlying": "rr_ltcusd",
+   "tickSize": 0.01,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 1,
+   "maxRelativeFundingRate": 0.005,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "",
+   "tags": []
+  },
+  {
+   "symbol": "pi_bchusd",
+   "type": "futures_inverse",
+   "underlying": "rr_bchusd",
+   "tickSize": 0.1,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 1,
+   "maxRelativeFundingRate": 0.005,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "",
+   "tags": []
+  },
+  {
+   "symbol": "fi_xbtusd_211231",
+   "type": "futures_inverse",
+   "underlying": "rr_xbtusd",
+   "lastTradingTime": "2022-12-31T16:00:00.000Z",
+   "tickSize": 0.5,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "tags": []
+  },
+  {
+   "symbol": "fi_xbtusd_220325",
+   "type": "futures_inverse",
+   "underlying": "rr_xbtusd",
+   "lastTradingTime": "2022-03-25T16:00:00.000Z",
+   "tickSize": 1,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "tags": []
+  },
+  {
+   "symbol": "fi_ethusd_220325",
+   "type": "futures_inverse",
+   "underlying": "rr_ethusd",
+   "lastTradingTime": "2022-03-25T16:00:00.000Z",
+   "tickSize": 1,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "tags": []
+  },
+  {
+   "symbol": "fi_bchusd_220325",
+   "type": "futures_inverse",
+   "underlying": "rr_bchusd",
+   "lastTradingTime": "2022-03-25T16:00:00.000Z",
+   "tickSize": 0.1,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "tags": []
+  },
+  {
+   "symbol": "fi_xrpusd_220325",
+   "type": "futures_inverse",
+   "underlying": "rr_xrpusd",
+   "lastTradingTime": "2022-03-25T16:00:00.000Z",
+   "tickSize": 0.0001,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "tags": []
+  },
+  {
+   "symbol": "fi_ltcusd_220325",
+   "type": "futures_inverse",
+   "underlying": "rr_ltcusd",
+   "lastTradingTime": "2022-03-25T16:00:00.000Z",
+   "tickSize": 0.01,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "tags": []
+  },
+  {
+   "symbol": "pf_xbtusd",
+   "type": "flexible_futures",
+   "tickSize": 1,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 1,
+   "maxRelativeFundingRate": 0.005,
+   "contractValueTradePrecision": 4,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "majors",
+   "tags": []
+  },
+  {
+   "symbol": "pf_avaxusd",
+   "type": "flexible_futures",
+   "tickSize": 0.01,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 1,
+   "maxRelativeFundingRate": 0.005,
+   "contractValueTradePrecision": 2,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "Layer1",
+   "tags": []
+  },
+  {
+   "symbol": "pf_dotusd",
+   "type": "flexible_futures",
+   "tickSize": 0.001,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 1,
+   "maxRelativeFundingRate": 0.005,
+   "contractValueTradePrecision": 1,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "majors",
+   "tags": []
+  },
+  {
+   "symbol": "pf_adausd",
+   "type": "flexible_futures",
+   "tickSize": 0.0001,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 24,
+   "maxRelativeFundingRate": 0.005,
+   "contractValueTradePrecision": 0,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "majors",
+   "tags": []
+  },
+  {
+   "symbol": "pf_atomusd",
+   "type": "flexible_futures",
+   "tickSize": 0.001,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 24,
+   "maxRelativeFundingRate": 0.005,
+   "contractValueTradePrecision": 1,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "Layer1",
+   "tags": []
+  },
+  {
+   "symbol": "pf_eosusd",
+   "type": "flexible_futures",
+   "tickSize": 0.0001,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 1,
+   "maxRelativeFundingRate": 0.005,
+   "contractValueTradePrecision": 0,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "Layer1",
+   "tags": []
+  },
+  {
+   "symbol": "pf_solusd",
+   "type": "flexible_futures",
+   "tickSize": 0.01,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 1,
+   "maxRelativeFundingRate": 0.005,
+   "contractValueTradePrecision": 2,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "majors",
+   "tags": []
+  },
+  {
+   "symbol": "pf_ethusd",
+   "type": "flexible_futures",
+   "tickSize": 0.1,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 1,
+   "maxRelativeFundingRate": 0.005,
+   "contractValueTradePrecision": 3,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "majors",
+   "tags": []
+  },
+  {
+   "symbol": "pf_bchusd",
+   "type": "flexible_futures",
+   "tickSize": 0.01,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 1,
+   "maxRelativeFundingRate": 0.005,
+   "contractValueTradePrecision": 2,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "",
+   "tags": []
+  },
+  {
+   "symbol": "pf_linkusd",
+   "type": "flexible_futures",
+   "tickSize": 0.001,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 1,
+   "maxRelativeFundingRate": 0.005,
+   "contractValueTradePrecision": 1,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "defi",
+   "tags": []
+  },
+  {
+   "symbol": "pf_uniusd",
+   "type": "flexible_futures",
+   "tickSize": 0.001,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 1,
+   "maxRelativeFundingRate": 0.005,
+   "contractValueTradePrecision": 1,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "defi",
+   "tags": []
+  },
+  {
+   "symbol": "pf_ltcusd",
+   "type": "flexible_futures",
+   "tickSize": 0.01,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 1,
+   "maxRelativeFundingRate": 0.005,
+   "contractValueTradePrecision": 2,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "majors",
+   "tags": []
+  },
+  {
+   "symbol": "pf_lunausd",
+   "type": "flexible_futures",
+   "tickSize": 0.001,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 1,
+   "maxRelativeFundingRate": 0.005,
+   "contractValueTradePrecision": 1,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "defi",
+   "tags": []
+  },
+  {
+   "symbol": "pf_xrpusd",
+   "type": "flexible_futures",
+   "tickSize": 1e-05,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 24,
+   "maxRelativeFundingRate": 0.005,
+   "contractValueTradePrecision": 0,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "majors",
+   "tags": []
+  },
+  {
+   "symbol": "pf_xmrusd",
+   "type": "flexible_futures",
+   "tickSize": 0.01,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "fundingRateCoefficient": 1,
+   "maxRelativeFundingRate": 0.005,
+   "contractValueTradePrecision": 2,
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "privacy",
+   "tags": []
+  },
+  {
+   "symbol": "fi_xbtusd_220128",
+   "type": "futures_inverse",
+   "underlying": "rr_xbtusd",
+   "lastTradingTime": "2022-01-28T16:00:00.000Z",
+   "tickSize": 1,
+   "contractSize": 0,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "isin": "isin",
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "category": "Layer1",
+   "tags": []
+  },
+  {
+   "symbol": "fi_ltcusd_220128",
+   "type": "futures_inverse",
+   "underlying": "rr_ltcusd",
+   "lastTradingTime": "2022-01-28T16:00:00.000Z",
+   "tickSize": 0.01,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "tags": []
+  },
+  {
+   "symbol": "fi_xrpusd_220128",
+   "type": "futures_inverse",
+   "underlying": "rr_xrpusd",
+   "lastTradingTime": "2022-01-28T16:00:00.000Z",
+   "tickSize": 0.0001,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "tags": []
+  },
+  {
+   "symbol": "fi_xbtusd_220429",
+   "type": "futures_inverse",
+   "underlying": "rr_xbtusd",
+   "lastTradingTime": "2022-04-29T15:00:00.000Z",
+   "tickSize": 0.5,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "tags": []
+  },
+  {
+   "symbol": "fi_ethusd_220128",
+   "type": "futures_inverse",
+   "underlying": "rr_ethusd",
+   "lastTradingTime": "2022-01-28T16:00:00.000Z",
+   "tickSize": 0.025,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "tags": []
+  },
+  {
+   "symbol": "fi_bchusd_220128",
+   "type": "futures_inverse",
+   "underlying": "rr_bchusd",
+   "lastTradingTime": "2022-01-28T16:00:00.000Z",
+   "tickSize": 0.1,
+   "contractSize": 1,
+   "tradeable": true,
+   "marginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "retailMarginLevels": [
+    {
+     "contracts": 0,
+     "initialMargin": 0.02,
+     "maintenanceMargin": 0.01
+    }
+   ],
+   "tags": []
+  },
+  {
+   "symbol": "in_xbtusd",
+   "type": "spot index",
+   "tradeable": false
+  },
+  {
+   "symbol": "in_xrpusd",
+   "type": "spot index",
+   "tradeable": false
+  },
+  {
+   "symbol": "in_ethusd",
+   "type": "spot index",
+   "tradeable": false
+  },
+  {
+   "symbol": "in_ltcusd",
+   "type": "spot index",
+   "tradeable": false
+  },
+  {
+   "symbol": "in_bchusd",
+   "type": "spot index",
+   "tradeable": false
+  },
+  {
+   "symbol": "rr_xbtusd",
+   "type": "spot index",
+   "tradeable": false
+  },
+  {
+   "symbol": "rr_xrpusd",
+   "type": "spot index",
+   "tradeable": false
+  },
+  {
+   "symbol": "rr_ethusd",
+   "type": "spot index",
+   "tradeable": false
+  },
+  {
+   "symbol": "rr_ltcusd",
+   "type": "spot index",
+   "tradeable": false
+  },
+  {
+   "symbol": "rr_bchusd",
+   "type": "spot index",
+   "tradeable": false
+  }
+ ],
+ "serverTime": "2022-01-12T02:37:09.368Z"
+}
+get_tickers:
+{
+ "result": "success",
+ "tickers": [
+  {
+   "tag": "perpetual",
+   "pair": "XBT:USD",
+   "symbol": "pi_xbtusd",
+   "markPrice": 42605.2,
+   "bid": 42620,
+   "bidSize": 100,
+   "ask": 42628.5,
+   "askSize": 100,
+   "vol24h": 56112,
+   "openInterest": 305428.0,
+   "open24h": 46613,
+   "indexPrice": 42605.57,
+   "last": 42648,
+   "lastTime": "2022-01-11T22:24:17.921Z",
+   "lastSize": 1,
+   "suspended": false,
+   "fundingRate": 1.10070678e-09,
+   "fundingRatePrediction": -1.157475012e-09
+  },
+  {
+   "tag": "perpetual",
+   "pair": "ETH:USD",
+   "symbol": "pi_ethusd",
+   "markPrice": 3228.975,
+   "bid": 3229.65,
+   "bidSize": 100,
+   "ask": 3230.3,
+   "askSize": 100,
+   "vol24h": 3017,
+   "openInterest": 95744.0,
+   "open24h": 3661.725,
+   "indexPrice": 3229.58,
+   "last": 3238.75,
+   "lastTime": "2022-01-11T23:57:21.852Z",
+   "lastSize": 100,
+   "suspended": false,
+   "fundingRate": 7.246213975e-09,
+   "fundingRatePrediction": -3.5926863192e-08
+  },
+  {
+   "tag": "perpetual",
+   "pair": "XRP:USD",
+   "symbol": "pi_xrpusd",
+   "markPrice": 0.7736,
+   "bid": 0.7721,
+   "bidSize": 100,
+   "ask": 0.7723,
+   "askSize": 100,
+   "vol24h": 3766,
+   "openInterest": 8110.0,
+   "open24h": 0.7344,
+   "indexPrice": 0.77187,
+   "last": 0.7696,
+   "lastTime": "2022-01-11T20:32:10.951Z",
+   "lastSize": 10,
+   "suspended": false,
+   "fundingRate": 0.006468305304010349,
+   "fundingRatePrediction": 0.00647090036107624
+  },
+  {
+   "tag": "perpetual",
+   "pair": "LTC:USD",
+   "symbol": "pi_ltcusd",
+   "markPrice": 131.81,
+   "bid": 131.32,
+   "bidSize": 100,
+   "ask": 131.36,
+   "askSize": 100,
+   "vol24h": 6858,
+   "openInterest": 12071.0,
+   "open24h": 146.11,
+   "indexPrice": 131.32,
+   "last": 128.5,
+   "lastTime": "2022-01-11T15:47:50.603Z",
+   "lastSize": 100,
+   "suspended": false,
+   "fundingRate": -3.8045959519099e-05,
+   "fundingRatePrediction": -3.8060439978686e-05
+  },
+  {
+   "tag": "perpetual",
+   "pair": "BCH:USD",
+   "symbol": "pi_bchusd",
+   "markPrice": 370.3,
+   "bid": 370.2,
+   "bidSize": 100,
+   "ask": 370.4,
+   "askSize": 100,
+   "vol24h": 1597,
+   "openInterest": 3.0,
+   "open24h": 429.5,
+   "indexPrice": 369.89,
+   "last": 395,
+   "lastTime": "2022-01-11T14:17:11.342Z",
+   "lastSize": 797,
+   "suspended": false,
+   "fundingRate": 5.040634276176e-06,
+   "fundingRatePrediction": 1.370057427965e-06
+  },
+  {
+   "tag": "month",
+   "pair": "XBT:USD",
+   "symbol": "fi_xbtusd_211231",
+   "markPrice": 44661.8,
+   "bid": 42736,
+   "bidSize": 100,
+   "ask": 42744.5,
+   "askSize": 100,
+   "vol24h": 2004,
+   "openInterest": 1803.0,
+   "open24h": 46608.5,
+   "indexPrice": 42605.57,
+   "last": 42694,
+   "lastTime": "2022-01-11T23:01:17.749Z",
+   "lastSize": 1,
+   "suspended": false
+  },
+  {
+   "tag": "quarter",
+   "pair": "XBT:USD",
+   "symbol": "fi_xbtusd_220325",
+   "markPrice": 41087,
+   "bid": 42736,
+   "bidSize": 100,
+   "ask": 42744,
+   "askSize": 100,
+   "vol24h": 12402,
+   "openInterest": 10446.0,
+   "open24h": 46603,
+   "indexPrice": 42605.57,
+   "last": 43000,
+   "lastTime": "2022-01-11T19:55:10.324Z",
+   "lastSize": 100,
+   "suspended": false
+  },
+  {
+   "tag": "quarter",
+   "pair": "ETH:USD",
+   "symbol": "fi_ethusd_220325",
+   "markPrice": 3444,
+   "bid": 3228,
+   "bidSize": 100,
+   "ask": 3230,
+   "askSize": 100,
+   "vol24h": 800,
+   "openInterest": 800.0,
+   "open24h": 3661,
+   "indexPrice": 3229.58,
+   "last": 3654,
+   "lastTime": "2022-01-11T14:17:08.731Z",
+   "lastSize": 100,
+   "suspended": false
+  },
+  {
+   "tag": "quarter",
+   "pair": "BCH:USD",
+   "symbol": "fi_bchusd_220325",
+   "markPrice": 370.1,
+   "bid": 369.8,
+   "bidSize": 100,
+   "ask": 370,
+   "askSize": 100,
+   "vol24h": 1600,
+   "openInterest": 0,
+   "open24h": 429.5,
+   "indexPrice": 369.89,
+   "last": 420.6,
+   "lastTime": "2022-01-11T14:17:11.342Z",
+   "lastSize": 800,
+   "suspended": false
+  },
+  {
+   "tag": "quarter",
+   "pair": "XRP:USD",
+   "symbol": "fi_xrpusd_220325",
+   "markPrice": 0.7727,
+   "bid": 0.7726,
+   "bidSize": 100,
+   "ask": 0.7729,
+   "askSize": 100,
+   "vol24h": 1200,
+   "openInterest": 0,
+   "open24h": 0.8787,
+   "indexPrice": 0.77187,
+   "last": 0.8602,
+   "lastTime": "2022-01-11T14:17:11.342Z",
+   "lastSize": 600,
+   "suspended": false
+  },
+  {
+   "tag": "quarter",
+   "pair": "LTC:USD",
+   "symbol": "fi_ltcusd_220325",
+   "markPrice": 138.63,
+   "bid": 131.32,
+   "bidSize": 100,
+   "ask": 131.36,
+   "askSize": 100,
+   "vol24h": 800,
+   "openInterest": 800.0,
+   "open24h": 146.08,
+   "indexPrice": 131.32,
+   "last": 145.98,
+   "lastTime": "2022-01-11T14:17:08.730Z",
+   "lastSize": 100,
+   "suspended": false
+  },
+  {
+   "tag": "perpetual",
+   "pair": "XBT:USD",
+   "symbol": "pf_xbtusd",
+   "markPrice": 42618,
+   "bid": 42620,
+   "bidSize": 0.5,
+   "ask": 42628,
+   "askSize": 0.5,
+   "vol24h": 76.9809,
+   "openInterest": 15.3422,
+   "open24h": 46613,
+   "indexPrice": 42605.57,
+   "last": 42676,
+   "lastTime": "2022-01-11T22:44:39.554Z",
+   "lastSize": 0.0018,
+   "suspended": false,
+   "fundingRate": 6.911597609331844,
+   "fundingRatePrediction": -10.17050089206529
+  },
+  {
+   "tag": "perpetual",
+   "pair": "AVAX:USD",
+   "symbol": "pf_avaxusd",
+   "markPrice": 89.22,
+   "bid": 89.16,
+   "bidSize": 50,
+   "ask": 89.23,
+   "askSize": 50.23,
+   "vol24h": 465.35,
+   "openInterest": 953.24,
+   "open24h": 101.94,
+   "indexPrice": 89.3,
+   "last": 89.41,
+   "lastTime": "2022-01-11T22:37:06.414Z",
+   "lastSize": 0.01,
+   "suspended": false,
+   "fundingRate": 0.013866408096296318,
+   "fundingRatePrediction": -0.002641079943529396
+  },
+  {
+   "tag": "perpetual",
+   "pair": "DOT:USD",
+   "symbol": "pf_dotusd",
+   "markPrice": 25.706,
+   "bid": 25.68,
+   "bidSize": 500,
+   "ask": 25.688,
+   "askSize": 522.3,
+   "vol24h": 50239.1,
+   "openInterest": 12983.0,
+   "open24h": 26.625,
+   "indexPrice": 25.676,
+   "last": 25.471,
+   "lastTime": "2022-01-11T22:37:08.507Z",
+   "lastSize": 0.1,
+   "suspended": false,
+   "fundingRate": -0.00804924911276924,
+   "fundingRatePrediction": 0.002743096619657132
+  },
+  {
+   "tag": "perpetual",
+   "pair": "ADA:USD",
+   "symbol": "pf_adausd",
+   "markPrice": 1.1982,
+   "bid": 1.1978,
+   "bidSize": 100,
+   "ask": 1.1981,
+   "askSize": 100,
+   "vol24h": 88808,
+   "openInterest": 91592.0,
+   "open24h": 1.3203,
+   "indexPrice": 1.1979,
+   "last": 1.1871,
+   "lastTime": "2022-01-11T19:09:04.608Z",
+   "lastSize": 15,
+   "suspended": false,
+   "fundingRate": 3.290116449039e-06,
+   "fundingRatePrediction": -2.291346486e-05
+  },
+  {
+   "tag": "perpetual",
+   "pair": "ATOM:USD",
+   "symbol": "pf_atomusd",
+   "markPrice": 40.23,
+   "bid": 40.224,
+   "bidSize": 480.3,
+   "ask": 40.233,
+   "askSize": 500,
+   "vol24h": 4060.2,
+   "openInterest": 4207.4,
+   "open24h": 27.321,
+   "indexPrice": 40.65,
+   "last": 38.511,
+   "lastTime": "2022-01-11T22:37:12.467Z",
+   "lastSize": 0.1,
+   "suspended": false,
+   "fundingRate": -0.01264148426717787,
+   "fundingRatePrediction": -0.01849910112960001
+  },
+  {
+   "tag": "perpetual",
+   "pair": "EOS:USD",
+   "symbol": "pf_eosusd",
+   "markPrice": 2.775,
+   "bid": 2.7747,
+   "bidSize": 100,
+   "ask": 2.7752,
+   "askSize": 100,
+   "vol24h": 1293,
+   "openInterest": 928.0,
+   "open24h": 3.0176,
+   "indexPrice": 2.771,
+   "last": 2.7612,
+   "lastTime": "2022-01-11T22:37:14.388Z",
+   "lastSize": 1,
+   "suspended": false,
+   "fundingRate": 0.001336329177538463,
+   "fundingRatePrediction": 0.0027212690736
+  },
+  {
+   "tag": "perpetual",
+   "pair": "SOL:USD",
+   "symbol": "pf_solusd",
+   "markPrice": 140.45,
+   "bid": 140.38,
+   "bidSize": 50,
+   "ask": 140.51,
+   "askSize": 50.19,
+   "vol24h": 402.98,
+   "openInterest": 2322.47,
+   "open24h": 171.56,
+   "indexPrice": 140.72,
+   "last": 140.45,
+   "lastTime": "2022-01-11T22:37:16.456Z",
+   "lastSize": 0.01,
+   "suspended": false,
+   "fundingRate": -0.026737424708461473,
+   "fundingRatePrediction": -0.01999713055
+  },
+  {
+   "tag": "perpetual",
+   "pair": "ETH:USD",
+   "symbol": "pf_ethusd",
+   "markPrice": 3264.2,
+   "bid": 3237.6,
+   "bidSize": 5,
+   "ask": 3238.6,
+   "askSize": 5,
+   "vol24h": 375.338,
+   "openInterest": 46.732,
+   "open24h": 3662.4,
+   "indexPrice": 3229.58,
+   "last": 3233.3,
+   "lastTime": "2022-01-11T22:37:18.642Z",
+   "lastSize": 0.001,
+   "suspended": false,
+   "fundingRate": -16.1574,
+   "fundingRatePrediction": -16.16385
+  },
+  {
+   "tag": "perpetual",
+   "pair": "BCH:USD",
+   "symbol": "pf_bchusd",
+   "markPrice": 370.02,
+   "bid": 369.92,
+   "bidSize": 50,
+   "ask": 369.99,
+   "askSize": 50.2,
+   "vol24h": 414.78,
+   "openInterest": 400.68,
+   "open24h": 429.61,
+   "indexPrice": 369.89,
+   "last": 368.4,
+   "lastTime": "2022-01-11T22:37:21.095Z",
+   "lastSize": 0.01,
+   "suspended": false,
+   "fundingRate": 0.018410133998076807,
+   "fundingRatePrediction": -0.06499132914
+  },
+  {
+   "tag": "perpetual",
+   "pair": "LINK:USD",
+   "symbol": "pf_linkusd",
+   "markPrice": 26.51,
+   "bid": 26.477,
+   "bidSize": 480.3,
+   "ask": 26.482,
+   "askSize": 500,
+   "vol24h": 4054.7,
+   "openInterest": 4073.9,
+   "open24h": 19.601,
+   "indexPrice": 26.45,
+   "last": 26.847,
+   "lastTime": "2022-01-11T22:37:23.725Z",
+   "lastSize": 0.1,
+   "suspended": false,
+   "fundingRate": 0.030018730707692315,
+   "fundingRatePrediction": -0.000499193146571417
+  },
+  {
+   "tag": "perpetual",
+   "pair": "UNI:USD",
+   "symbol": "pf_uniusd",
+   "markPrice": 16.104,
+   "bid": 16.097,
+   "bidSize": 500,
+   "ask": 16.103,
+   "askSize": 520.9,
+   "vol24h": 4152.1,
+   "openInterest": 23638.4,
+   "open24h": 17.016,
+   "indexPrice": 16.094,
+   "last": 15.915,
+   "lastTime": "2022-01-11T22:37:26.525Z",
+   "lastSize": 0.1,
+   "suspended": false,
+   "fundingRate": -0.0021793463976923,
+   "fundingRatePrediction": -0.007429205617428578
+  },
+  {
+   "tag": "perpetual",
+   "pair": "LTC:USD",
+   "symbol": "pf_ltcusd",
+   "markPrice": 131.72,
+   "bid": 131.71,
+   "bidSize": 50,
+   "ask": 131.74,
+   "askSize": 50.2,
+   "vol24h": 404.78,
+   "openInterest": 400.72,
+   "open24h": 146.08,
+   "indexPrice": 131.32,
+   "last": 131.27,
+   "lastTime": "2022-01-11T22:37:28.573Z",
+   "lastSize": 0.01,
+   "suspended": false,
+   "fundingRate": 0.23881189001,
+   "fundingRatePrediction": 0.3480993798811429
+  },
+  {
+   "tag": "perpetual",
+   "pair": "LUNA:USD",
+   "symbol": "pf_lunausd",
+   "markPrice": 73.77,
+   "bid": 73.762,
+   "bidSize": 500,
+   "ask": 73.777,
+   "askSize": 500,
+   "vol24h": 35542.6,
+   "openInterest": 8113.3,
+   "open24h": 83.321,
+   "indexPrice": 73.15,
+   "last": 74.69,
+   "lastTime": "2022-01-12T00:14:44.877Z",
+   "lastSize": 1540.3,
+   "suspended": false,
+   "fundingRate": 0.36305,
+   "fundingRatePrediction": 0.3672
+  },
+  {
+   "tag": "perpetual",
+   "pair": "XRP:USD",
+   "symbol": "pf_xrpusd",
+   "markPrice": 0.7727,
+   "bid": 0.77263,
+   "bidSize": 100,
+   "ask": 0.77294,
+   "askSize": 100,
+   "vol24h": 1255,
+   "openInterest": 21731.0,
+   "open24h": 0.82333,
+   "indexPrice": 0.77187,
+   "last": 0.76594,
+   "lastTime": "2022-01-11T22:37:33.086Z",
+   "lastSize": 1,
+   "suspended": false,
+   "fundingRate": 6.219370943911e-06,
+   "fundingRatePrediction": -5.05241428869e-07
+  },
+  {
+   "tag": "perpetual",
+   "pair": "XMR:USD",
+   "symbol": "pf_xmrusd",
+   "markPrice": 196.66,
+   "bid": 196.59,
+   "bidSize": 50,
+   "ask": 196.62,
+   "askSize": 50.17,
+   "vol24h": 357.3,
+   "openInterest": 812.54,
+   "open24h": 190.95,
+   "indexPrice": 196.61,
+   "last": 190.35,
+   "lastTime": "2022-01-11T22:37:35.140Z",
+   "lastSize": 0.01,
+   "suspended": false,
+   "fundingRate": -0.02637818114615377,
+   "fundingRatePrediction": -0.060567995811428514
+  },
+  {
+   "tag": "month",
+   "pair": "XBT:USD",
+   "symbol": "fi_xbtusd_220128",
+   "markPrice": 43651,
+   "bid": 50943,
+   "bidSize": 97,
+   "ask": 50953,
+   "askSize": 95,
+   "vol24h": 0,
+   "openInterest": 2.0,
+   "indexPrice": 42605.57,
+   "last": 50943,
+   "lastTime": "2022-01-08T16:40:33.539Z",
+   "lastSize": 1,
+   "suspended": false
+  },
+  {
+   "tag": "month",
+   "pair": "LTC:USD",
+   "symbol": "fi_ltcusd_220128",
+   "markPrice": 131.72,
+   "bid": 131.71,
+   "bidSize": 100,
+   "ask": 131.74,
+   "askSize": 100,
+   "vol24h": 0,
+   "openInterest": 0,
+   "indexPrice": 131.32,
+   "suspended": false
+  },
+  {
+   "tag": "month",
+   "pair": "XRP:USD",
+   "symbol": "fi_xrpusd_220128",
+   "markPrice": 0.7727,
+   "bid": 0.7726,
+   "bidSize": 100,
+   "ask": 0.7729,
+   "askSize": 100,
+   "vol24h": 0,
+   "openInterest": 0,
+   "indexPrice": 0.77187,
+   "suspended": false
+  },
+  {
+   "tag": "quarter",
+   "pair": "XBT:USD",
+   "symbol": "fi_xbtusd_220429",
+   "markPrice": 42625,
+   "bid": 42620,
+   "bidSize": 100,
+   "ask": 42628.5,
+   "askSize": 100,
+   "vol24h": 0,
+   "openInterest": 0,
+   "indexPrice": 42605.57,
+   "suspended": false
+  },
+  {
+   "tag": "month",
+   "pair": "ETH:USD",
+   "symbol": "fi_ethusd_220128",
+   "markPrice": 3230.525,
+   "bid": 3229.65,
+   "bidSize": 100,
+   "ask": 3230.3,
+   "askSize": 100,
+   "vol24h": 800,
+   "openInterest": 800.0,
+   "open24h": 3230.85,
+   "indexPrice": 3229.58,
+   "last": 3233.125,
+   "lastTime": "2022-01-12T01:51:10.260Z",
+   "lastSize": 100,
+   "suspended": false
+  },
+  {
+   "tag": "month",
+   "pair": "BCH:USD",
+   "symbol": "fi_bchusd_220128",
+   "markPrice": 370.1,
+   "bid": 369.8,
+   "bidSize": 100,
+   "ask": 370,
+   "askSize": 100,
+   "vol24h": 0,
+   "openInterest": 0,
+   "indexPrice": 369.89,
+   "suspended": false
+  },
+  {
+   "symbol": "in_xbtusd",
+   "last": 42606,
+   "lastTime": "2022-01-12T02:37:09.000Z"
+  },
+  {
+   "symbol": "in_xrpusd",
+   "last": 0.7719,
+   "lastTime": "2022-01-12T02:37:09.000Z"
+  },
+  {
+   "symbol": "in_ethusd",
+   "last": 3229.58,
+   "lastTime": "2022-01-12T02:37:09.000Z"
+  },
+  {
+   "symbol": "in_ltcusd",
+   "last": 131.32,
+   "lastTime": "2022-01-12T02:37:09.000Z"
+  },
+  {
+   "symbol": "in_bchusd",
+   "last": 369.89,
+   "lastTime": "2022-01-12T02:37:09.000Z"
+  },
+  {
+   "symbol": "rr_xbtusd",
+   "last": 41779,
+   "lastTime": "2022-01-11T16:00:00.000Z"
+  },
+  {
+   "symbol": "rr_xrpusd",
+   "last": 0.7396,
+   "lastTime": "2022-01-11T16:00:00.000Z"
+  },
+  {
+   "symbol": "rr_ethusd",
+   "last": 3130.54,
+   "lastTime": "2022-01-11T16:00:00.000Z"
+  },
+  {
+   "symbol": "rr_ltcusd",
+   "last": 128.81,
+   "lastTime": "2022-01-11T16:00:00.000Z"
+  },
+  {
+   "symbol": "rr_bchusd",
+   "last": 366.47,
+   "lastTime": "2022-01-11T16:00:00.000Z"
+  }
+ ],
+ "serverTime": "2022-01-12T02:37:10.179Z"
+}
